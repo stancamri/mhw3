@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+   <title> Liceo Statate Leonardo </title>
+   <link rel="stylesheet" href="mhw2.css" />
+   <script src="mhw2.js" defer></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <script src="https://cdn.jsdelivr.net/npm/@tomtom-international/web-sdk-services@7/dist/services-web.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tomtom-international/web-sdk-maps@6/dist/maps-web.min.js"></script>
+</body>
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!--  inizio 1 campo -->
+  <header>
+<div id="flex-container">
+  <div class="flex-item it1">
+  <a href="https://www.miur.gov.it/"> MIUR </a>
+</div>
+<div class="flex-item it2">
+   <div id="flex-cont">
+    <a href="#" id="accediLink">Accedi</a>
+    <div id="modale" class="modale">
+        <div class="modale-contenuto">
+           
+            <!-- Contenuto del modale -->
+            <div id="flex-contm">
+              <div class="flex-itemm1">
+                <h1>Accedi ai servizi</h1>
+                <p>Da qui puoi accedere ai diversi servizi della scuola che richiedono una autenticazione personale.</p>
+                <a href="https://www.portaleargo.it/auth/sso/login/?login_challenge=c0b95ca6e9a94b6ebfd65b4722553f1b">Registro elettronico- Famiglie (portale Argo)</a>
+                <a href="https://www.portaleargo.it/auth/sso/login/?login_challenge=f491fc8db40f4cc5addc08c5c20f563b">Registro elettronico- Docenti(Argo Scuolanext)</a>
+                <a href="https://www.liceoleonardo.edu.it/wp/404">Messa a disposizione (MAD)</a>
+                <a href="http://www.leonardomoodle.it/">Piattaforma di formazione LEONARDO MOODLE</a>
+              </div>
+              <div class="flex-itemm2">
+                 <span id="chiudiModaleContainer"></span>
+                <h3>Personale scolastico</h3>
+                <p>Entra nel sito della scuola con le tue credenziali per gestire contenuti, visualizzare circolari e altre funzionalità.</p>
+                <form id="loginForm">
+                  <input type="text" id="username" name="username" placeholder="Nome utente o indirizzo email" required>
+                  <hr>
+                  <input type="password" id="password" name="password" placeholder="Password" required>
+                  <hr>
+                  <a href="https://www.liceoleonardo.edu.it/wp/wp-login.php?action=lostpassword">Password dimenticata? </a>
+                  <label for="ricordami">Ricordami</label>
+                  <input type="checkbox" id="ricordami" name="ricordami">
+                  <button type="submit">Accedi</button>
+              </form>
+              </div>
+            </div> 
+        </div>
+  </div>
+    <div class="fi12"> <a href=""> <div class="fi112"><img src="foto1.jpeg"></div> </div></a>
+   </div>
+    </div>
+</div>
+</header>
+  <!--  fine 1 campo -->
+  <!--  inizio 2 campo -->
+  <nav>
+  <div id="flex-containe2">
+    <div class="flex-item2 fi1">
+    <a href="https://www.liceoleonardo.edu.it/wp/">  <img id="logo" src="foto2.jpeg"> </a>
+</div>
+<div id="f-i-1">
+ <div class="flex-item2 item1"> <a href="#" id="apriModaleCerca"> <p>Cerca</p> </a> </div> 
+ <div id="modaleCerca" class="modale2">
+  <div class="cont-modale2">
+    <span id="chiudiModaleCerca">&times;</span>
+    <h2>Cerca</h2>
+      <form> <input type="text" id="cercainfo" placeholder="Cerca informazioni, servizi, notizie o documenti">
+        <hr>
+      </form>
+      <br>
+        <div class="modalemen1"><a href="https://www.liceoleonardo.edu.it/wp/?s=&type=school">Cerca nella sezione <strong> SCUOLA</strong></a></div>
+        <div class="modalemen2"> <a href="https://www.liceoleonardo.edu.it/wp/?s=&type=news">Cerca tra le <strong> NOVITA'</strong></a> </div>
+        <div class="modalemen3"><a href="https://www.liceoleonardo.edu.it/wp/?s=&type=service">Cerca nei <strong> SERVIZI</strong></a></div> 
+        <div class="modalemen4"><a href="https://www.liceoleonardo.edu.it/wp/?s=&type=education">Cerca nella <strong> DIDATTICA</strong></a> </div>
+        <div class="modalemen5"><a href="https://www.liceoleonardo.edu.it/wp/?s=&type=any">Cerca in tutto il <strong> SITO</strong></a> </div>
+        <h3> POTREBBERO INTERESSARTI</h3>
+        <div class="modalelement1"><a href="">Liceo Leonardo</a> </div>
+        <div class="modalelement2"><a href="">Orientamento </a> </div>
+        <div class="modalelement3"><a href="">Iscrizione</a>  </div>
+        <div class="modalelement4"><a href="">Matematica&Realtà </a> </div>
+        <div class="modalelement5"><a href="">Riapertura</a> </div>
+        <div class="modalelement6"><a href="">Intervista Tiziana'Anna</a>  </div>
+        <div class="modalelement7"><a href="">La tecnica della scuola</a>  </div>
+
+
+  </div>
+</div>
+ <div class="flex-item2 item11"> <a href=""><img src="foto3.jpeg"> </a></div> 
+
+</div>
+ <div class="flex-item2 item2"> <a  href="https://www.facebook.com/liceoleonardo.giarre/">  <img src="foto4.png" > </a> </div> 
+ <div class="flex-item2 item3"> <a  href="https://www.instagram.com/liceo.leonardo.giarre/">  <img src="foto5.png" > </a> </div> 
+ <div class="flex-item2 item4"> <a  href="https://www.instagram.com/liceo.leonardo.giarre/">  <img src="foto6.png" > </a> </div> 
+<div id="login-btn"> <img src="git.png"></imga> </div>
+  </div>
+<div id="flex-containe3">
+     <div class="flex-item3 n1">
+      <div class="dropdown ">
+   <a  class="drop" href="#"> Scuola</a>
+   <div class="dropdown-content">
+    <a href="#">Panoramica</a>
+    <hr>
+    <a id="link-tend" href="#">Presentazione</a>
+    <a id="link-tend" href="#">Presentazione</a>
+    <a id="link-tend" href="#">I luoghi della scuola</a>
+    <a id="link-tend" href="#">Le  carte della scuola</a>
+    <a id="link-tend" href="#">Organizzazione</a>
+    <a id="link-tend" href="#">Le persone </a>
+    <a id="link-tend" href="#">I numeri della scuola</a>
+    <a id="link-tend" href="#">La storia</a>
+    <a id="link-tend" href="#">Aggiornamento PTOF a.s.2023-2024</a>
+    <a id="link-tend" href="#"> RAV a.s. 2023-2024</a>
+  </div>
+   </div>
+  </div>
+   <div class="flex-item3 n2">
+    <div class="dropdown ">
+   <a class="drop" href="#">Servizi</a>
+   <div class="dropdown-content">
+    <a id="link-tend" href="#">Panoramica</a>
+    <hr>
+    <a id="link-tend" href="#">Servizi per il personale scolastico</a>
+    <a id="link-tend" href="#">Servizi per famiglie e studenti</a>
+    <a id="link-tend" href="#">Indirizzi di studio</a>
+    <a id="link-tend" href="#">Tutti i servizi</a>
+    <a id="link-tend" href="#">Argo MAD</a>
+   </div>
+  </div>
+</div>
+   <div class="flex-item3 n3">
+    <div class="dropdown">
+   <a class="drop" href="#">Novità</a>
+   <div class="dropdown-content">
+    <a id="link-tend" href="#">Panoramica</a>
+    <hr>
+    <a id="link-tend" href="#">Le notizie</a>
+    <a id="link-tend" href="#">Le circolari</a>
+    <a id="link-tend" href="#">Calendario eventi</a>
+    <a id="link-tend" href="#">Albo online </a>
+   </div>
+  </div>
+</div>
+   <div class="flex-item3 n4">
+    <div class="dropdown">
+   <a class="drop" href="#">Didattica</a>
+   <div class="dropdown-content">
+    <a id="link-tend" href="#">Panoramica</a>
+    <hr>
+    <a id="link-tend" href="#">Le schede didattiche</a>
+    <a id="link-tend" href="#">I progetti delle classi</a>
+    <a id="link-tend" href="#">Curvatura biomedica</a>
+
+ </div>
+</div>
+</div>
+</div>
+
+</nav>
+
+<div id="flex-container3">
+  <div class="flex-item4">
+    <a href="https://www.liceoleonardo.edu.it/wp/tipologia-documento/modulistica/">Modulistica</a>
+  </div>
+  <div class="flex-item4 ">
+    <a href="https://www.liceoleonardo.edu.it/wp/servizio/accesso-civico/">Accesso Civico</a>
+  </div>
+  <div class="flex-item4 ">
+    <a href="https://www.liceoleonardo.edu.it/wp/tipologia-documento/albo-online/">Albo Pretorio fino al 24/10/2022 </a>
+  </div>
+  <div class="flex-item4">
+    <a href="https://www.portaleargo.it/albopretorio/online/#/?customerCode=SG29065">Albo Pretorio fino al 25/10/2022</a>
+  </div>
+  <div class="flex-item4">
+    <a href="https://www.liceoleonardo.edu.it/wp/amministrazione-trasparente/">Amministratore Trasparente fino al 25/10/2022</a>
+  </div>
+  <div class="flex-item4">
+    <a href="https://trasparenza-pa.net/?codcli=SG29065">Amministratore Trasparente fino al 24/10/22</a>
+  </div>
+  <div class="flex-item4">
+    <a href="https://www.liceoleonardo.edu.it/wp/evento/">Calendario Evento </a>
+  </div>
+  <div class="flex-item4">
+    <a href="https://www.liceoleonardo.edu.it/wp/servizio/blog-del-liceo-statale/">Blog</a>
+    </div>
+    <div class="flex-item4">
+      <a href="https://www.liceoleonardo.edu.it/wp/albo-pretorio/sicurezza/"> Sicurezza</a>
+    </div>
+  </div>
+  <!--  fine 2 campo -->
+  <!--  inizio 3 campo -->
+ <div id="sezione1">
+  <p>PROTOCOLLO BULLISMO E CYBERBULLISMO <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:d96439b2-3a98-4591-ae29-07cc6f37c9e6"> Dettagli</a></p>
+ </div>
+   <!--  fine 3 campo -->
+      <!--  inizio 4 campo -->
+
+ <div id="flex-container4">
+  <div class="flex-items4 ite1">
+    <p> Liceo Statale</p>
+   <h1> Leonardo</h1>
+   <h3>Giarre</h3>
+   <div> <a href="https://www.liceoleonardo.edu.it/wp/la-scuola/"> Vai alla scuola </a></div>
+  </div>
+  <div class="flex-items4 ite2"> 
+    <img src="foto7.png">
+   
+</div>
+</div>
+<!--  fine 4 campo -->
+<section>
+  <div id="secart"><p>Pubblicità e Informazione</p></div>
+  <div id="art">
+    <div class="art1">
+      <img src="pics4.png">
+    </div>
+    <div class="art2">
+      <img src="pics5.png">
+
+    </div>
+  </div>
+</section>
+<!--  inizio 5 campo --> 
+<section>
+  <div id="box">
+    <div class="box1">
+      <h4>Rassegna Stampa</h4>
+      <article>
+      <div class="boo"><a  href="https://www.liceoleonardo.edu.it/wp/circolari/chiusura-al-pubblico-uffici-di-segreteria/">CHIUSURA AL PUBBLICO UFFICI DI SEGRETERIA</a></div> 
+      <div class="bo1"> <a href="https://www.liceoleonardo.edu.it/wp/author/francesca-licosi/"> <img src="foto9.jpeg" > </a>  </div>
+      <div class="bo2"> da  <a href="https://www.liceoleonardo.edu.it/wp/author/francesca-licosi/"> Francesca Licosi</a>  Docente </div>
+    </article>
+    <br/>
+  <div class="bo3"><a href="https://www.liceoleonardo.edu.it/wp/tipologia-articolo/rassegna-stampa/"> Vedi tutti</a></div>
+    </div>
+    <div class="box2">
+      <h4>Eventi</h4>
+      <div class=boxx><a href="https://www.liceoleonardo.edu.it/wp/evento/"> Vedi tutti </a></div>
+    </div>
+    <div class="box3">
+      <h4>Circolari</h4>
+      <article>
+      <div class="booxx"><a href="https://www.liceoleonardo.edu.it/wp/circolare/fase-regionale-campionati-di-scienze/">FASE REGIONALE CAMPIONATO DI SCIENZE</a></div>
+      <p> circ. n.516</p>
+    </article><br/>
+    <div class="bo4"><a href="https://www.liceoleonardo.edu.it/wp/circolare/"> Vedi tutti </a></div></div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+<!--  fine 5 campo --> 
+<!--  inizio 6 campo --> 
+<br>
+  <div id="cont">
+    <div class="scritta">
+  <h1>  Servizi</h1>
+  <h2>I servizi offerti dal Liceo Statale Leonardo dedicati a tutti i genitori, studenti, personale ATA, docenti ed utenze esterne.</h2>
+</div>
+</div>
+<div>
+  <div id="cas">
+    <div class="casella cas1" >
+<a   href="https://www.liceoleonardo.edu.it/wp/servizio/argo-mad/"> Argo MAD</a>   
+   </div>
+    <div class="casella cas2">
+<a  href="https://www.liceoleonardo.edu.it/wp/servizio/avviso-di-consultazione-pubblica-dellaggiornamento-del-piano-triennale-per-la-prevenzione-della-corruzione-e-della-trasparenza-delle-istituzioni-scolastiche-della-regione-sicilia-2023-2025/">AVVISO di consultazione pubblica dell’aggiornamento del Piano Triennale per la Prevenzione della Corruzione e della Trasparenza delle Istituzioni scolastiche della regione Sicilia 2023-2025</a> 
+    </div>
+    <div class="casella cas3">
+<a href="https://www.liceoleonardo.edu.it/wp/servizio/codice-iban-scuola/"> Codice IBAN scuola</a>
+    </div>
+    <div class="casella cas4">
+<a href="https://www.liceoleonardo.edu.it/wp/servizio/formazione-neoassunti-a-s-2021-2022-2/">Formazione neoassunti A.S. 2021/2022 </a>
+    </div>
+    <div class="casella cas5">
+<a href="https://www.liceoleonardo.edu.it/wp/servizio/orario-docenti-dal-13-09-2021/">Orario docenti dal 13.09.2021</a>
+    </div>
+    <div class="casella cas6">
+<a href="https://www.liceoleonardo.edu.it/wp/servizio/orario-classi-dal-13-09-2021/"> ORARIO CLASSI DAL 13.09.2021 </a>
+    </div>
+    </div>
+    <div class="pulsante">
+    <a href="https://www.liceoleonardo.edu.it/wp/servizi/"> Scopri di più</a>
+  </div>
+</div>
+<!--  fine 6 campo --> 
+<!--  inizio 7 campo --> 
+<section>
+  <div id="conteni">
+    <div class="contenente cont1">
+      <h1> La scuola</h1>
+      <h2> A.S.</h2>
+      <div class="cont11">
+        <a href="https://www.liceoleonardo.edu.it/wp/#tab-818"> Liceo Statale Leonardo</a>
+      </div>
+      <div class="conim"> <img src="https://www.liceoleonardo.edu.it/wp/wp-content/themes/design-scuole-wordpress-theme-master/assets/img/didattica-mockup.png">
+      </div>
+    </div>
+    <div class="contenente cont2">
+      <h1> La didattica</h1>
+      <h2> la nostra offerta formativa</h2>
+      <h3> Nessun indirizzo di studi associato a questa scuola.</h3>
+      <br/>
+        <a href="https://www.liceoleonardo.edu.it/wp/struttura/liceo-statale-leonardo/"> Vai alla presentazione della scuola</a>
+    </div>
+  </div>
+</section>
+<!--  fine 7 campo --> 
+<!--  inizio 8 campo --> 
+<div id="finale">
+  <div class="part part1">
+    <h6>Didattica</h6>
+    <p>Esplora le risorse didattiche dell'Istituto</p>
+    <div class="impim"><a href="https://www.liceoleonardo.edu.it/wp/didattica/"> Vai alla didattica </a></div>
+  </div>
+  <div class="part part2">
+    <a href="https://www.liceoleonardo.edu.it/wp/scheda-progetto/"> <img src="pics2.jpeg"></a> 
+   <div class="pro"><a href="https://www.liceoleonardo.edu.it/wp/scheda-progetto/"> <p>Progetti </p> </a></div> 
+  </div>
+  <div class="box-calendario">
+    <ul id="holiday-list">
+    </div>
+</div>
+<footer>
+  <div id="ifooter">
+  <div class="logofooter">
+<img src=https://upload.wikimedia.org/wikipedia/commons/2/2b/Emblem_of_Italy_%28black_and_white_without_striped_background%29.svg>
+</div>
+<div class="scrittafooter">
+<div class="sc1"><a href="https://www.liceoleonardo.edu.it/wp/"><p>Liceo Statale</p></a></div>
+<a href="https://www.liceoleonardo.edu.it/wp/"><h3>Leonardo</a></h3>
+<a href="https://www.liceoleonardo.edu.it/wp/"><p>Giarre</a></p>
+</div>
+</div>
+<div id="blocco">
+  <div class="blocco1">
+    <h3> Link esterni</h3>
+    <ul>
+      <div class="spa"><li><a href="https://www.miur.gov.it/" target="_blank" >MIUR</a></li></div>
+      <li><a href="https://www.usr.sicilia.it/" target="_blank" >Ufficio Scolastico Regionale</a></li>
+      <li><a href="https://ct.usr.sicilia.it/"target="_blank">Ufficio Scolastico Territoriale</a></li>
+      <li><a href="https://cercalatuascuola.istruzione.it/cercalatuascuola/errore/scuola-non-trovata"target="_blank">Scuola in Chiaro</a></li>
+      <li><a href="https://unica.istruzione.gov.it/it/orientamento/iscrizioni"target="_blank">Iscrizioni On LIne</a></li>
+      <li><a href="https://www.invalsi.it/"target="_blank">Invalsi</a></li>
+      <li><a href="http://www.comune.giarre.ct.it/"target="_blank">Comune</a></li>
+    </ul>
+  </div>
+  <div class="blocco2">
+    <h3> La Scuola</h3>
+    <ul>
+      <div class="spa"> <li><a href="https://www.liceoleonardo.edu.it/wp/luogo/">I luoghi della scuola</a></li> </div>
+      <li><a href="https://www.liceoleonardo.edu.it/wp/documento/">Le carte della scuola</a></li>
+      <li><a href="https://www.liceoleonardo.edu.it/wp/struttura/">Organizzazione</a></li>
+      <li><a href="https://www.liceoleonardo.edu.it/wp/persone/">Le persone</a></li>
+      <li><a href="https://www.liceoleonardo.edu.it/wp/i-numeri-della-scuola/">I numeri della scuola</a></li>
+      <li><a href="https://www.liceoleonardo.edu.it/wp/la-storia/">La storia</a></li>
+    </ul>
+  </div>
+  <div class="blocco3">
+    <h3> I servizi</h3>
+    <ul>
+      <div class="spa"> <li><a href="https://www.liceoleonardo.edu.it/wp/tipologia-servizio/personale-scolastico/">Servizi per il personale scolastico</a></li> </div>
+      <li><a href="https://www.liceoleonardo.edu.it/wp/tipologia-servizio/famiglie-e-studenti/">Servizi per famiglie e studenti</a></li>
+      <li><a href="https://www.liceoleonardo.edu.it/wp/indirizzo-di-studio/">Indirizzi di studio</a></li>
+      <li><a href="https://www.liceoleonardo.edu.it/wp/servizio/">Tutti i servizi </a></li>
+      <li><a href="https://mad.portaleargo.it/#/">Argo MAD</a></li>
+    </ul>
+  </div>
+  <div class="blocco4">
+    <h3> Novità</h3>
+    <ul>
+      <div class="spa"><li><a href="https://www.liceoleonardo.edu.it/wp/tipologia-articolo/notizie/">Le novizie</a></li> </div>
+      <li><a href="https://www.liceoleonardo.edu.it/wp/circolare/">Le circolari</a></li>
+      <li><a href="https://www.liceoleonardo.edu.it/wp/evento/">Calendario eventi</a></li>
+      <li><a href="https://www.liceoleonardo.edu.it/wp/tipologia-documento/albo-online/"> Albo online </a></li>
+    </ul>
+  </div>
+</div>
+<div id="blocco2">
+  <div class="blox1">
+   <a href="https://www.liceoleonardo.edu.it/wp/tipologia-documento/modulistica/">Modulistica</a> 
+   <a href="mailto:destinatario@example.com?subject=Oggetto%20del%20messaggio&body=Corpo%20del%20messaggio">FeedBack e Reclami</a>
+  <a href="https://www.liceoleonardo.edu.it/wp/amministrazione-trasparente/">Amministrazione Trasparente</a>
+ <a href="https://form.agid.gov.it/view/6071b2af-7552-41f0-8de1-907f540f8fd5">Valutazione Accessibilità AGID</a> 
+   <a href="https://form.agid.gov.it/view/d431bd27-2fcd-4755-b4d1-9fe6ced3f8f4">Obiettivi di accessibilità</a>
+   <a href="https://www.liceoleonardo.edu.it/wp/tipologia-documento/albo-online/">Albo online</a>
+  <a href="https://www.liceoleonardo.edu.it/wp/privacy-policy/">Privacy Policy</a> 
+   <a href="https://www.liceoleonardo.edu.it/wp/cicli-scolastici/">Cicli Scolastici </a> 
+  </div>
+  <div class="blox2">
+    Seguici su:
+     <a  href="https://www.facebook.com/liceoleonardo.giarre/">  <img src="foto4.png" > </a> 
+    <a  href="https://www.instagram.com/liceo.leonardo.giarre/">  <img src="foto5.png" > </a> 
+    <a  href="https://www.instagram.com/liceo.leonardo.giarre/">  <img src="foto6.png" > </a> 
+    </div>
+  </div>
+  <br/>
+  <hr>
+  <div id="fin1">
+  <div class="fini1"><p> LICEO STATALE "LEONARDO" <br>
+Liceo Scientifico - Liceo Linguistico - ESA BAC - Liceo Scientifico opzionale Scienze Applicate<br>
+Giarre (CT) - Via Veneto, Via Trieste - Tel 0956136865 - Cod. Mecc.: CTIS053002 - <br>
+Cod. Univoco: NZ0XO6 - C.F.: 92038480874 <br>
+www.liceoleonardo.edu.it - E-mail: ctis053002@istruzione.it - PEC: ctis053002@pec.istruzione.it <br>
+  </p></div>
+
+</div>
+<hr>
+<div class="fini1"><p> Powered by Nunzio Giglio | Concept & Design by Designers Italia
+</p>
+
+</footer>
+
+
+  </body>
+</html>
